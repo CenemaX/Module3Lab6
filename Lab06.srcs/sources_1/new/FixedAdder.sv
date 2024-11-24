@@ -28,7 +28,7 @@ module FixedAdder #(parameter n1 = 8, parameter n2 = 8, parameter m1 = 8, parame
 
     // Determine the maximum width
     localparam int max_width = (n1 > n2) ? n1 : n2;
-
+//hi :)_
     // Perform addition and assign to res
     always_comb begin
         res = a + b; // Fixed-point addition
